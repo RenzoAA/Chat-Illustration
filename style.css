@@ -59,7 +59,7 @@ body{
     max-width: 1440px;
     display: flex;
     flex-direction: column;
-    padding: 42px 0;
+    padding: 18px 0;
     align-items: center;
 }
 .movil-box{
@@ -231,16 +231,21 @@ form::after{
     .box-medium{
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
+        /* background: red; */
     }
     .movil-box{
         width: 40%;
+        /* background: red; */
+        margin-right: 3rem;
+        max-width: 350px;
     }
     .booking-container{
         width: 40%;
         justify-content: flex-start;
         text-align: initial;
+        /* background: red; */
     }
     .booking-container h1{
         text-align: initial;
